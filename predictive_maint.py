@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = 'C:\\Users\\WINDOWS\\Desktop\\predictive\\predictive_maintenance.csv'
+file_path = 'C:\\Users\\WINDOWS\\Desktop\\MAC\\MAC-MAIN\\predictive_maintenance.csv'
 data = pd.read_csv(file_path)
 print(data.head())
 from sklearn.model_selection import train_test_split
